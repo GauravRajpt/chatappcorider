@@ -30,7 +30,7 @@ const App = () => {
   );
 };
 
-const ApiData = [
+const ApiData = 
   {
     "chats": [
         {
@@ -150,6 +150,6 @@ const ApiData = [
     "status": "success",
     "to": "Bellandur"
 }
-]
+
 
 export default App;
