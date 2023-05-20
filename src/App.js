@@ -11,7 +11,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://3.111.128.67/assignment   /chat?page=0");
+        const response = await axios.get("http://3.111.128.67/assignment/chat?page=0");
         setUserData(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);
