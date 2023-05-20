@@ -7,8 +7,7 @@ import { ApiData } from "./ApiData";
 
 const App = () => {
   const [userData, setUserData] = useState([]);
-  const randomNumber = Math.floor(Math.random() * 25);
-
+  const randomNumber = Math.floor(Math.random() * ApiData.length);
   useEffect(() => {
     const fetchData = async () => {
       try {
